@@ -4,10 +4,12 @@ Library  BuiltIn
 Library  String
 Variables  ../PageObject/Locaters.py
 
+*** Variables ***
+${URL}     https://demoauthor.magnolia-cms.com/travel/
+${browser}     chrome
 
 *** Keywords ***
-Open Chrome Browser
-    [Arguments]     ${Url}      ${Browser}
+Start Test Case
     open browser    ${Url}      ${Browser}
     maximize browser window
     wait until element is visible       ${loginUsername}        timeout=3
@@ -25,9 +27,8 @@ Click SignIn
 
 Verifiy Succesul Login
     wait until page contains element     ${signedInUser}     timeout=3
-    sleep   2
     click element   ${accept}
     log to console  user is eingeloggt
 
-Close Browser if failed
+Finisch Test
     close browser

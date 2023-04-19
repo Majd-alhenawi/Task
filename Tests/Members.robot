@@ -1,10 +1,7 @@
 *** Settings ***
 Library  SeleniumLibrary
 Resource    ../Resources/LoginKeywords.robot
-Resource    ../Resources/HomepageKeywords.robot
-
-Test Setup    Start Test Case
-Test Teardown    Finisch Test
+Resource    ../Resources/MembersKeywords.robot
 
 *** Variables ***
 ${username}     superuser
@@ -12,9 +9,12 @@ ${password}     superuser
 
 *** Test Cases ***
 LoginTest
-
+        Start Test Case
         Enter Username      ${username}
         Enter Password      ${password}
         click signin
         verifiy succesul login
+
+Check Members Page
+        verfication members page
         Finisch Test
