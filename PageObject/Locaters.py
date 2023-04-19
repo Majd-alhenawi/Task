@@ -1,3 +1,6 @@
+# Accept cookie
+accept = "xpath:/html/body/div[1]/div/a"
+
 # Login Page locators
 loginUsername = '//*[@id="username"]'
 loginPass = '//*[@id="password"]'
@@ -38,5 +41,22 @@ aboutTitle = 'xpath:/html/body/div[3]/div[1]/h2'
 ourCompany = '//*[@id="teaser-a674e6ae-015c-4526-8b4b-96580eb7cc4f"]/h2/a'
 whatWeBelieve = '//*[@id="teaser-afd8b752-1ab9-4665-b794-86d0845b70b9"]/h2/a'
 careers = '//*[@id="teaser-9b453dbe-1c04-4406-ad66-667d279c83ed"]/h2/a'
-# Accept cookie
-accept = "xpath:/html/body/div[1]/div/a"
+video = "//*[contains(@class, 'video-wrapper')]/video"
+
+# Homepage locators for Contact
+contact = '//*[@id="navbar"]/div/ul/li[5]'
+email = "//*[@id='email']"
+subject = "//*[@id='subject']"
+message = "//*[@id='message']"
+sendMessage = "//*[contains(@class, 'button-wrapper')]/input"
+
+# Homepage locators for Members
+members = '//*[@id="navbar"]/div/ul/li[6]'
+membersTitle = "//h2[text()='Members']"
+accessMember = "//a[text()='Access Member Content']"
+register = "//a[text()='Register']"
+
+# Homepage locators for Search
+search = "//*[@id='nav-search']"
+searchResult = "xpath://html/body/div[3]/div/a"
+firstResult = "xpath://html/body/div[3]/div/a"

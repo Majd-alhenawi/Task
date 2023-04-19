@@ -1,88 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36bf84b1-ffd0-42fe-a9b2-b4e577a85644" name="Default Changelist" comment="" />
+    <list default="true" id="36bf84b1-ffd0-42fe-a9b2-b4e577a85644" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Resources/AboutKeywords.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/ContactKeywords.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/DestinationsMenuKeywords.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/MembersKeywords.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/StoriesKeywords.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/ToursMenuKeywords.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/About.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Contact.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/DestinationsMenu.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/HomePage.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Members.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Stories.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/ToursMenu.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Qnit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Qnit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObject/Locaters.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObject/Locaters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/HomepageKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/HomepageKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/LoginKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/LoginKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/LoginPage.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/LoginPage.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2OWX9d9QnRcOEKAQQsWFnOnKL6R" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="Qnit" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="Qnit" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="Qnit" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="Qnit" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Task/Task&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -96,18 +64,15 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="271" y="153" key="IDE.errors.dialog" timestamp="1681677186282">
-      <screen x="0" y="25" width="1440" height="801" />
-    </state>
-    <state x="271" y="153" key="IDE.errors.dialog/0.25.1440.801/1440.25.1920.1055@0.25.1440.801" timestamp="1681677186282" />
-    <state x="220" y="50" key="SettingsEditor" timestamp="1681678892761">
-      <screen x="0" y="25" width="1440" height="799" />
-    </state>
-    <state x="220" y="50" key="SettingsEditor/0.25.1440.799/1440.25.1920.1055@0.25.1440.799" timestamp="1681678892761" />
-    <state x="388" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1681677182617">
-      <screen x="0" y="25" width="1440" height="801" />
-    </state>
-    <state x="388" y="243" key="com.intellij.ide.util.TipDialog/0.25.1440.801/1440.25.1920.1055@0.25.1440.801" timestamp="1681677182617" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
