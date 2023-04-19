@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36bf84b1-ffd0-42fe-a9b2-b4e577a85644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Resources/AboutKeywords.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/ContactKeywords.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/DestinationsMenuKeywords.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/MembersKeywords.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/StoriesKeywords.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/ToursMenuKeywords.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/About.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/Contact.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/DestinationsMenu.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/HomePage.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/Members.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/Stories.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/ToursMenu.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Qnit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Qnit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObject/Locaters.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObject/Locaters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/HomepageKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/HomepageKeywords.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/LoginKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/LoginKeywords.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/LoginPage.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/LoginPage.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
-    </list>
+    <list default="true" id="36bf84b1-ffd0-42fe-a9b2-b4e577a85644" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
