@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.9.6 on darwin)" generated="20230419 04:32:12.029" rpa="false" schemaversion="3">
+<suite id="s1" name="LoginPage" source="/Users/majdalhenawi/PycharmProjects/Task/Tests/LoginPage.robot">
+<test id="s1-t1" name="LoginTest" line="13">
+<kw name="Open Chrome Browser" library="LoginKeywords">
+<arg>${URL}</arg>
+<arg>${browser}</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${Url}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230419 04:32:12.227" level="INFO">Opening browser 'chrome' to base url 'https://demoauthor.magnolia-cms.com/travel/'.</msg>
+<status status="PASS" starttime="20230419 04:32:12.227" endtime="20230419 04:32:14.259"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230419 04:32:14.259" endtime="20230419 04:32:14.671"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${loginUsername}</arg>
+<arg>timeout=3</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230419 04:32:14.671" endtime="20230419 04:32:14.699"/>
+</kw>
+<status status="PASS" starttime="20230419 04:32:12.226" endtime="20230419 04:32:14.700"/>
+</kw>
+<kw name="Enter Username" library="LoginKeywords">
+<arg>${username}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${loginUsername}</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:14.701" level="INFO">Typing text 'superuser' into text field '//*[@id="username"]'.</msg>
+<status status="PASS" starttime="20230419 04:32:14.700" endtime="20230419 04:32:14.808"/>
+</kw>
+<status status="PASS" starttime="20230419 04:32:14.700" endtime="20230419 04:32:14.808"/>
+</kw>
+<kw name="Enter Password" library="LoginKeywords">
+<arg>${password}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${loginPass}</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:14.810" level="INFO">Typing text 'superuser' into text field '//*[@id="password"]'.</msg>
+<status status="PASS" starttime="20230419 04:32:14.809" endtime="20230419 04:32:14.872"/>
+</kw>
+<status status="PASS" starttime="20230419 04:32:14.808" endtime="20230419 04:32:14.872"/>
+</kw>
+<kw name="Click SignIn" library="LoginKeywords">
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>${loginButton}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:14.873" level="INFO">Clicking button '//*[@id="box"]/form/button'.</msg>
+<status status="PASS" starttime="20230419 04:32:14.872" endtime="20230419 04:32:16.245"/>
+</kw>
+<status status="PASS" starttime="20230419 04:32:14.872" endtime="20230419 04:32:16.245"/>
+</kw>
+<kw name="Verifiy Succesul Login" library="LoginKeywords">
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${signedInUser}</arg>
+<arg>timeout=3</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230419 04:32:16.246" endtime="20230419 04:32:16.258"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230419 04:32:18.259" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230419 04:32:16.258" endtime="20230419 04:32:18.259"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${accept}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:18.260" level="INFO">Clicking element 'xpath:/html/body/div[1]/div/a'.</msg>
+<status status="PASS" starttime="20230419 04:32:18.260" endtime="20230419 04:32:18.298"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>user is eingeloggt</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230419 04:32:18.298" endtime="20230419 04:32:18.299"/>
+</kw>
+<status status="PASS" starttime="20230419 04:32:16.245" endtime="20230419 04:32:18.299"/>
+</kw>
+<status status="PASS" starttime="20230419 04:32:12.226" endtime="20230419 04:32:18.299"/>
+</test>
+<test id="s1-t2" name="Check Languge" line="21">
+<kw name="Select English Languge" library="HomepageKeywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${englishLanguage}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:18.301" level="INFO">Clicking element '//*[@id="language-link"]/ul/li[1]'.</msg>
+<status status="PASS" starttime="20230419 04:32:18.301" endtime="20230419 04:32:18.332"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${active_language}</var>
+<arg>${language}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:18.351" level="INFO">${active_language} = ENGLISH</msg>
+<status status="PASS" starttime="20230419 04:32:18.332" endtime="20230419 04:32:18.351"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>${active_language}</arg>
+<arg>ENGLISH</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" starttime="20230419 04:32:18.351" endtime="20230419 04:32:18.351"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>the selected languge is English</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230419 04:32:18.351" endtime="20230419 04:32:18.351"/>
+</kw>
+<status status="PASS" starttime="20230419 04:32:18.300" endtime="20230419 04:32:18.352"/>
+</kw>
+<status status="PASS" starttime="20230419 04:32:18.300" endtime="20230419 04:32:18.352"/>
+</test>
+<test id="s1-t3" name="Check Tours" line="24">
+<kw name="Verfication Tours Menu" library="HomepageKeywords">
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${tours}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230419 04:32:18.353" endtime="20230419 04:32:18.360"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${tours}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:18.361" level="INFO">Clicking element '//*[@id="navbar"]/div/ul/li[1]'.</msg>
+<status status="PASS" starttime="20230419 04:32:18.360" endtime="20230419 04:32:18.391"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${expected_children}</var>
+<arg>ACTIVE\nBEACH\nCULTURAL\nECOTOURISM, NATURE &amp; WILDLIFE\nFAMILY\nOFF THE BEATEN PATH</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230419 04:32:18.391" level="INFO">${expected_children} = ACTIVE
+BEACH
+CULTURAL
+ECOTOURISM, NATURE &amp; WILDLIFE
+FAMILY
+OFF THE BEATEN PATH</msg>
+<status status="PASS" starttime="20230419 04:32:18.391" endtime="20230419 04:32:18.391"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${actual_items}</var>
+<arg>${toursChildren}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:18.431" level="INFO">${actual_items} = ACTIVE
+BEACH
+CULTURAL
+ECOTOURISM, NATURE &amp; WILDLIFE
+FAMILY
+OFF THE BEATEN PATH</msg>
+<status status="PASS" starttime="20230419 04:32:18.392" endtime="20230419 04:32:18.431"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>${expected_children}</arg>
+<arg>${actual_items}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" starttime="20230419 04:32:18.431" endtime="20230419 04:32:18.432"/>
+</kw>
+<status status="PASS" starttime="20230419 04:32:18.352" endtime="20230419 04:32:18.432"/>
+</kw>
+<kw name="Verfication first Elemnt from Tours Menu" library="HomepageKeywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${toursFirstElement}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:18.433" level="INFO">Clicking element '//*[@id="navbar"]/div/ul/li[1]/ul/li[1]'.</msg>
+<status status="PASS" starttime="20230419 04:32:18.433" endtime="20230419 04:32:18.876"/>
+</kw>
+<kw name="Location Should Be" library="SeleniumLibrary">
+<arg>https://demoauthor.magnolia-cms.com/travel/tour-type~active~.html</arg>
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<msg timestamp="20230419 04:32:18.883" level="INFO">Current location is 'https://demoauthor.magnolia-cms.com/travel/tour-type~active~.html'.</msg>
+<status status="PASS" starttime="20230419 04:32:18.876" endtime="20230419 04:32:18.883"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${toursFirstElementTitle}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230419 04:32:18.883" endtime="20230419 04:32:18.893"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${text}</var>
+<arg>${toursFirstElementTitle}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:18.910" level="INFO">${text} = ACTIVE</msg>
+<status status="PASS" starttime="20230419 04:32:18.893" endtime="20230419 04:32:18.910"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>ACTIVE</arg>
+<arg>${text}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" starttime="20230419 04:32:18.910" endtime="20230419 04:32:18.910"/>
+</kw>
+<kw name="Get Element Count" library="SeleniumLibrary">
+<var>${count}</var>
+<arg>xpath:/html/body/div[5]/div/a</arg>
+<doc>Returns the number of elements matching ``locator``.</doc>
+<msg timestamp="20230419 04:32:18.920" level="INFO">${count} = 3</msg>
+<status status="PASS" starttime="20230419 04:32:18.910" endtime="20230419 04:32:18.920"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230419 04:32:18.920" endtime="20230419 04:32:18.920"/>
+</kw>
+<kw name="Should Be Equal As Integers" library="BuiltIn">
+<arg>${count}</arg>
+<arg>3</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<msg timestamp="20230419 04:32:18.920" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<status status="PASS" starttime="20230419 04:32:18.920" endtime="20230419 04:32:18.920"/>
+</kw>
+<status status="PASS" starttime="20230419 04:32:18.432" endtime="20230419 04:32:18.921"/>
+</kw>
+<status status="PASS" starttime="20230419 04:32:18.352" endtime="20230419 04:32:18.921"/>
+</test>
+<test id="s1-t4" name="Check Destination" line="28">
+<kw name="Verfication Destinations Menu" library="HomepageKeywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${destinations}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:18.922" level="INFO">Clicking element '//*[@id="navbar"]/div/ul/li[2]'.</msg>
+<status status="PASS" starttime="20230419 04:32:18.922" endtime="20230419 04:32:18.955"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${expected_children}</var>
+<arg>NORTH AMERICA\nCENTRAL &amp; SOUTH AMERICA\nEUROPE\nAFRICA &amp; THE MIDDLE EAST\nASIA &amp; THE PACIFIC\nPOLAR</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230419 04:32:18.956" level="INFO">${expected_children} = NORTH AMERICA
+CENTRAL &amp; SOUTH AMERICA
+EUROPE
+AFRICA &amp; THE MIDDLE EAST
+ASIA &amp; THE PACIFIC
+POLAR</msg>
+<status status="PASS" starttime="20230419 04:32:18.955" endtime="20230419 04:32:18.956"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${actual_items}</var>
+<arg>${destinationsChildren}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:18.979" level="INFO">${actual_items} = NORTH AMERICA
+CENTRAL &amp; SOUTH AMERICA
+EUROPE
+AFRICA &amp; THE MIDDLE EAST
+ASIA &amp; THE PACIFIC
+POLAR</msg>
+<status status="PASS" starttime="20230419 04:32:18.956" endtime="20230419 04:32:18.979"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>${expected_children}</arg>
+<arg>${actual_items}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" starttime="20230419 04:32:18.980" endtime="20230419 04:32:18.980"/>
+</kw>
+<status status="PASS" starttime="20230419 04:32:18.922" endtime="20230419 04:32:18.980"/>
+</kw>
+<kw name="Verfication first Elemnt from Destinations Menu" library="HomepageKeywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${destinationsFirstElement}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:18.982" level="INFO">Clicking element '//*[@id="navbar"]/div/ul/li[2]/ul/li[1]'.</msg>
+<status status="PASS" starttime="20230419 04:32:18.981" endtime="20230419 04:32:19.323"/>
+</kw>
+<kw name="Location Should Be" library="SeleniumLibrary">
+<arg>https://demoauthor.magnolia-cms.com/travel/destination~northAmerica~.html</arg>
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<msg timestamp="20230419 04:32:19.327" level="INFO">Current location is 'https://demoauthor.magnolia-cms.com/travel/destination~northAmerica~.html'.</msg>
+<status status="PASS" starttime="20230419 04:32:19.323" endtime="20230419 04:32:19.328"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${destinationsFirstElementTitle}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230419 04:32:19.328" endtime="20230419 04:32:19.339"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${text}</var>
+<arg>${destinationsFirstElementTitle}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:19.355" level="INFO">${text} = NORTH AMERICA</msg>
+<status status="PASS" starttime="20230419 04:32:19.339" endtime="20230419 04:32:19.355"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>NORTH AMERICA</arg>
+<arg>${text}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" starttime="20230419 04:32:19.356" endtime="20230419 04:32:19.356"/>
+</kw>
+<status status="PASS" starttime="20230419 04:32:18.981" endtime="20230419 04:32:19.356"/>
+</kw>
+<status status="PASS" starttime="20230419 04:32:18.921" endtime="20230419 04:32:19.356"/>
+</test>
+<test id="s1-t5" name="Check stories" line="32">
+<kw name="Verfication Stories Page" library="HomepageKeywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${stories}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:19.358" level="INFO">Clicking element '//*[@id="navbar"]/div/ul/li[3]'.</msg>
+<status status="PASS" starttime="20230419 04:32:19.357" endtime="20230419 04:32:20.070"/>
+</kw>
+<kw name="Location Should Be" library="SeleniumLibrary">
+<arg>https://demoauthor.magnolia-cms.com/travel/stories.html</arg>
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<msg timestamp="20230419 04:32:20.089" level="INFO">Current location is 'https://demoauthor.magnolia-cms.com/travel/stories.html'.</msg>
+<status status="PASS" starttime="20230419 04:32:20.070" endtime="20230419 04:32:20.089"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${storiesTitle}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230419 04:32:20.089" endtime="20230419 04:32:20.099"/>
+</kw>
+<kw name="Page Should Contain Image" library="SeleniumLibrary">
+<arg>${firstImage}</arg>
+<doc>Verifies image identified by ``locator`` is found from current page.</doc>
+<msg timestamp="20230419 04:32:20.111" level="INFO">Current page contains image 'xpath:/html/body/div[3]/div[2]/div[1]/div/a/div[3]/span/img'.</msg>
+<status status="PASS" starttime="20230419 04:32:20.099" endtime="20230419 04:32:20.112"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${firstImageTittle}</var>
+<arg>${titleFirstImage}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:20.132" level="INFO">${firstImageTittle} = LOSING AND FINDING MYSELF IN THE SWISS ALPS</msg>
+<status status="PASS" starttime="20230419 04:32:20.112" endtime="20230419 04:32:20.132"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${firstImageDescription}</var>
+<arg>${descriptionFirstImage}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:20.151" level="INFO">${firstImageDescription} = Dear M, Here’s a confession. Did I ever tell you that I’ve been afraid all my life? Afraid of the cha...</msg>
+<status status="PASS" starttime="20230419 04:32:20.132" endtime="20230419 04:32:20.151"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${firstStory}</var>
+<arg>${storyButton}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:20.172" level="INFO">${firstStory} = Read Story</msg>
+<status status="PASS" starttime="20230419 04:32:20.151" endtime="20230419 04:32:20.172"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>LOSING AND FINDING MYSELF IN THE SWISS ALPS</arg>
+<arg>${firstImageTittle}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" starttime="20230419 04:32:20.172" endtime="20230419 04:32:20.172"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>Dear M, Here’s a confession. Did I ever tell you that I’ve been afraid all my life? Afraid of the cha...</arg>
+<arg>${firstImageDescription}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" starttime="20230419 04:32:20.172" endtime="20230419 04:32:20.173"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>Read Story</arg>
+<arg>${firstStory}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" starttime="20230419 04:32:20.173" endtime="20230419 04:32:20.173"/>
+</kw>
+<status status="PASS" starttime="20230419 04:32:19.357" endtime="20230419 04:32:20.173"/>
+</kw>
+<status status="PASS" starttime="20230419 04:32:19.356" endtime="20230419 04:32:20.174"/>
+</test>
+<test id="s1-t6" name="Check about" line="35">
+<kw name="Verfication About Page" library="HomepageKeywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${about}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:20.176" level="INFO">Clicking element '//*[@id="navbar"]/div/ul/li[4]'.</msg>
+<status status="PASS" starttime="20230419 04:32:20.175" endtime="20230419 04:32:20.716"/>
+</kw>
+<kw name="Location Should Be" library="SeleniumLibrary">
+<arg>https://demoauthor.magnolia-cms.com/travel/about.html</arg>
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<msg timestamp="20230419 04:32:20.720" level="INFO">Current location is 'https://demoauthor.magnolia-cms.com/travel/about.html'.</msg>
+<status status="PASS" starttime="20230419 04:32:20.716" endtime="20230419 04:32:20.720"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>About Magnolia Travels</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20230419 04:32:20.737" level="INFO">Current page contains text 'About Magnolia Travels'.</msg>
+<status status="PASS" starttime="20230419 04:32:20.720" endtime="20230419 04:32:20.737"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>We are a full service, independent travel agency.</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20230419 04:32:20.748" level="INFO">Current page contains text 'We are a full service, independent travel agency.'.</msg>
+<status status="PASS" starttime="20230419 04:32:20.738" endtime="20230419 04:32:20.748"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>We offer unique tours from every continent on the planet. Get inspired and book your tour with us for an experience you’ll always remember.</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20230419 04:32:20.759" level="INFO">Current page contains text 'We offer unique tours from every continent on the planet. Get inspired and book your tour with us for an experience you’ll always remember.'.</msg>
+<status status="PASS" starttime="20230419 04:32:20.749" endtime="20230419 04:32:20.759"/>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>${ourCompany}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20230419 04:32:20.759" endtime="20230419 04:32:21.061"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>${ourCompany}</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:21.062" level="INFO">Clicking link '//*[@id="teaser-a674e6ae-015c-4526-8b4b-96580eb7cc4f"]/h2/a'.</msg>
+<status status="PASS" starttime="20230419 04:32:21.061" endtime="20230419 04:32:21.292"/>
+</kw>
+<kw name="Location Should Be" library="SeleniumLibrary">
+<arg>https://demoauthor.magnolia-cms.com/travel/about/company.html</arg>
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<msg timestamp="20230419 04:32:21.295" level="INFO">Current location is 'https://demoauthor.magnolia-cms.com/travel/about/company.html'.</msg>
+<status status="PASS" starttime="20230419 04:32:21.292" endtime="20230419 04:32:21.295"/>
+</kw>
+<kw name="Go Back" library="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="PASS" starttime="20230419 04:32:21.295" endtime="20230419 04:32:21.515"/>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>${whatWeBelieve}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20230419 04:32:21.515" endtime="20230419 04:32:21.800"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>${whatWeBelieve}</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:21.800" level="INFO">Clicking link '//*[@id="teaser-afd8b752-1ab9-4665-b794-86d0845b70b9"]/h2/a'.</msg>
+<status status="PASS" starttime="20230419 04:32:21.800" endtime="20230419 04:32:22.063"/>
+</kw>
+<kw name="Location Should Be" library="SeleniumLibrary">
+<arg>https://demoauthor.magnolia-cms.com/travel/about/what-we-believe.html</arg>
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<msg timestamp="20230419 04:32:22.070" level="INFO">Current location is 'https://demoauthor.magnolia-cms.com/travel/about/what-we-believe.html'.</msg>
+<status status="PASS" starttime="20230419 04:32:22.063" endtime="20230419 04:32:22.070"/>
+</kw>
+<kw name="Go Back" library="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="PASS" starttime="20230419 04:32:22.070" endtime="20230419 04:32:22.305"/>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>${careers}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20230419 04:32:22.306" endtime="20230419 04:32:22.618"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>${careers}</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20230419 04:32:22.619" level="INFO">Clicking link '//*[@id="teaser-9b453dbe-1c04-4406-ad66-667d279c83ed"]/h2/a'.</msg>
+<status status="PASS" starttime="20230419 04:32:22.618" endtime="20230419 04:32:23.074"/>
+</kw>
+<kw name="Location Should Be" library="SeleniumLibrary">
+<arg>https://demoauthor.magnolia-cms.com/travel/about/careers.html</arg>
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<msg timestamp="20230419 04:32:23.077" level="INFO">Current location is 'https://demoauthor.magnolia-cms.com/travel/about/careers.html'.</msg>
+<status status="PASS" starttime="20230419 04:32:23.074" endtime="20230419 04:32:23.077"/>
+</kw>
+<kw name="Go Back" library="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="PASS" starttime="20230419 04:32:23.077" endtime="20230419 04:32:23.323"/>
+</kw>
+<status status="PASS" starttime="20230419 04:32:20.175" endtime="20230419 04:32:23.323"/>
+</kw>
+<status status="PASS" starttime="20230419 04:32:20.174" endtime="20230419 04:32:23.324"/>
+</test>
+<status status="PASS" starttime="20230419 04:32:12.030" endtime="20230419 04:32:23.326"/>
+</suite>
+<statistics>
+<total>
+<stat pass="6" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="6" fail="0" skip="0" id="s1" name="LoginPage">LoginPage</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
