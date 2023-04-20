@@ -12,6 +12,7 @@ ${URL}     https://demoauthor.magnolia-cms.com/travel/
 Verfication Members Page
     click element                 ${members}
     location should contain       ${URL}    members.html
+    page should contain element   ${membersTitle}    timeout=5
     ${title}                      get text    ${membersTitle}
     should be equal as strings    ${title}       MEMBERS
     page should contain element   ${accessMember}

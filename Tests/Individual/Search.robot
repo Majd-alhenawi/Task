@@ -1,7 +1,7 @@
 *** Settings ***
 Library  SeleniumLibrary
-Resource    ../Resources/LoginKeywords.robot
-Resource    ../Resources/DestinationsMenuKeywords.robot
+Resource    ../../Resources/LoginKeywords.robot
+Resource    ../../Resources/SearchKeywords.robot
 
 *** Variables ***
 ${username}     superuser
@@ -13,12 +13,9 @@ LoginTest
         Enter Username      ${username}
         Enter Password      ${password}
         click signin
-        verifiy succesul login
+        verifiy succesful login
 
-Check Destination
-        Verfication Destinations Menu
-
-Check first Element in Destination Meun
-        Verfication first Elemnt from Destinations Menu
+Check Search
+        verfication search
 
         Finisch Test

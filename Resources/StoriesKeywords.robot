@@ -13,7 +13,7 @@ ${URL}     https://demoauthor.magnolia-cms.com/travel/
 Verfication Stories Page
     click element                       ${stories}
     location should contain             ${URL}     stories.html
-    wait until page contains element    ${storiesTitle}
+    wait until page contains element    ${storiesTitle}     timeout=5
     page should contain image           ${firstImage}
     ${firstImageTittle}                 get text    ${titleFirstImage}
     ${firstImageDescription}            get text  ${descriptionFirstImage}

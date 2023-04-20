@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36bf84b1-ffd0-42fe-a9b2-b4e577a85644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Resources/LangugeKeywords.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/SearchKeywords.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/Search.robot" afterDir="false" />
+    <list default="true" id="36bf84b1-ffd0-42fe-a9b2-b4e577a85644" name="Default Changelist" comment="modified the test cases">
+      <change afterPath="$PROJECT_DIR$/Tests/BookTour.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/HomePage.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Individual/LoginPage.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObject/Locaters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Locaters/Locaters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locaters/Locaters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Locaters/Locaters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/AboutKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/AboutKeywords.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/ContactKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/ContactKeywords.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/DestinationsMenuKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/DestinationsMenuKeywords.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/HomepageKeywords.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/LangugeKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/LangugeKeywords.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/LoginKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/LoginKeywords.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/MembersKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/MembersKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/SearchKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/SearchKeywords.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/StoriesKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/StoriesKeywords.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/ToursMenuKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/ToursMenuKeywords.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Contact.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Contact.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/HomePage.robot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/LoginPage.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/LoginPage.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/ToursMenu.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ToursMenu.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/About.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Individual/About.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Contact.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Individual/Contact.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/DestinationsMenu.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Individual/DestinationsMenu.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/LoginPage.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Members.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Individual/Members.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Search.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Individual/Search.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Stories.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Individual/Stories.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ToursMenu.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Individual/ToursMenu.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
@@ -50,6 +55,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Task\Task\Tests\einzeln" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -62,6 +72,14 @@
       <option name="presentableId" value="Default" />
       <updated>1681677161597</updated>
     </task>
+    <task id="LOCAL-00001" summary="modified the test cases">
+      <created>1681950778899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681950778899</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,5 +92,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modified the test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified the test cases" />
   </component>
 </project>

@@ -21,6 +21,26 @@ toursChildren = '//*[@id="navbar"]/div/ul/li[1]/ul'
 toursFirstElement = '//*[@id="navbar"]/div/ul/li[1]/ul/li[1]'
 toursFirstElementTitle = "//h1[contains(text(),'Active')]"
 
+# Locators for book a tour
+hutToHut = "xpath:/html/body/div[8]/div/div[1]/a/div[2]/div[2]/div"     # View Tour Button in HUT TO HUT  TOUR
+bookTourButton = "xpath://*[contains(@class, 'btn-lg')]"
+adultsNumber = "//*[@id='adults']"
+youthNumber = "//*[@id='youth']"
+supportCheckbox = "//*[@id='upgrades_2']"  #$299 Support local community social, environmental, small business, emergency relief.
+mealRequirements = "//*[@id='meal']"
+nextButton = '//*[@id="book"]/fieldset[2]/div[3]/input'
+veganCheckbox = "//*[@id='mealOptions_3']"
+nextStep = '//*[@id="book"]/fieldset/div[3]/input[2]'
+
+# Personal Information
+title = "//*[@id='title']"
+firstName = "//*[@id='firstName']"
+lastName = "//*[@id='lastName']"
+email = "//*[@id='email']"
+phone = "//*[@id='phone']"
+
+
+
 # Homepage locators for Destinations and his children
 destinations = '//*[@id="navbar"]/div/ul/li[2]'
 destinationsChildren = '//*[@id="navbar"]/div/ul/li[2]/ul'
@@ -55,6 +75,7 @@ members = '//*[@id="navbar"]/div/ul/li[6]'
 membersTitle = "//h2[text()='Members']"
 accessMember = "//a[text()='Access Member Content']"
 register = "//a[text()='Register']"
+
 
 # Homepage locators for Search
 search = "//*[@id='nav-search']"

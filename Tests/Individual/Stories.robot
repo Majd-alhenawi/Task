@@ -1,7 +1,7 @@
 *** Settings ***
 Library  SeleniumLibrary
-Resource    ../Resources/LoginKeywords.robot
-Resource    ../Resources/AboutKeywords.robot
+Resource    ../../Resources/LoginKeywords.robot
+Resource    ../../Resources/StoriesKeywords.robot
 
 *** Variables ***
 ${username}     superuser
@@ -13,8 +13,8 @@ LoginTest
         Enter Username      ${username}
         Enter Password      ${password}
         click signin
-        verifiy succesul login
+        verifiy succesful login
 
-Check About Page
-        verfication about page
+Check Stories Page
+        Verfication Stories Page
         Finisch Test

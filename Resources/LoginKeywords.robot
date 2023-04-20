@@ -25,10 +25,13 @@ Enter Password
 Click SignIn
     click button     ${loginButton}
 
-Verifiy Succesul Login
+Verifiy Succesful Login
     wait until page contains element     ${signedInUser}     timeout=3
     click element     ${accept}
     log to console    user is eingeloggt
+
+Verifiy Unsuccesful Login
+    page should contain     Error during login. Please try again.
 
 Finisch Test
     close browser

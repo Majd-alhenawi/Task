@@ -1,7 +1,9 @@
 *** Settings ***
 Library  SeleniumLibrary
-Resource    ../Resources/LoginKeywords.robot
-Resource    ../Resources/ToursMenuKeywords.robot
+Resource    ../../Resources/LoginKeywords.robot
+Resource    ../../Resources/ToursMenuKeywords.robot
+
+
 *** Variables ***
 ${username}     superuser
 ${password}     superuser
@@ -12,7 +14,7 @@ LoginTest
         Enter Username      ${username}
         Enter Password      ${password}
         click signin
-        verifiy succesul login
+        verifiy succesful login
 
 Check Tours
         Verfication Tours Menu

@@ -1,7 +1,7 @@
 *** Settings ***
 Library  SeleniumLibrary
-Resource    ../Resources/LoginKeywords.robot
-Resource    ../Resources/ContactKeywords.robot
+Resource    ../../Resources/LoginKeywords.robot
+Resource    ../../Resources/AboutKeywords.robot
 
 *** Variables ***
 ${username}     superuser
@@ -13,9 +13,8 @@ LoginTest
         Enter Username      ${username}
         Enter Password      ${password}
         click signin
-        verifiy succesul login
+        verifiy succesful login
 
-Check Contact Page
-        verfication contact page
-
+Check About Page
+        verfication about page
         Finisch Test
