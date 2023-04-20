@@ -1,7 +1,7 @@
 *** Settings ***
 Library  SeleniumLibrary
 Resource    ../Resources/LoginKeywords.robot
-Resource    ../Resources/ToursMenuKeyword.robot
+Resource    ../Resources/ToursMenuKeywords.robot
 *** Variables ***
 ${username}     superuser
 ${password}     superuser

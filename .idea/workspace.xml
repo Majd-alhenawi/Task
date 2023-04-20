@@ -2,26 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36bf84b1-ffd0-42fe-a9b2-b4e577a85644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Resources/AboutKeywords.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/ContactKeywords.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/DestinationsMenuKeywords.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/MembersKeywords.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/StoriesKeywords.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/ToursMenuKeywords.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/About.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/Contact.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/DestinationsMenu.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/HomePage.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/Members.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/Stories.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/ToursMenu.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Qnit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Qnit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/LangugeKeywords.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/SearchKeywords.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Search.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObject/Locaters.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObject/Locaters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/HomepageKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/HomepageKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObject/Locaters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Locaters/Locaters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/AboutKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/AboutKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/ContactKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/ContactKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/DestinationsMenuKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/DestinationsMenuKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/HomepageKeywords.robot" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/LoginKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/LoginKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/MembersKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/MembersKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/StoriesKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/StoriesKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/ToursMenuKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/ToursMenuKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Contact.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Contact.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/HomePage.robot" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/LoginPage.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/LoginPage.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ToursMenu.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ToursMenu.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
@@ -36,6 +33,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2OWX9d9QnRcOEKAQQsWFnOnKL6R" />
   <component name="ProjectViewState">
